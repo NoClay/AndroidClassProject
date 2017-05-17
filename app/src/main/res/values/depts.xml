@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dept">
+        <item>人力资源部</item>
+        <item>销售部</item>
+        <item>财务部</item>
+        <item>开发部</item>
+    </string-array>
+</resources>

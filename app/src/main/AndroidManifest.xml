@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="no_clay.test2">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Actvitys.SecondActivity"/>
+        <activity android:name=".Actvitys.ResultActivity"/>
+        <activity
+            android:name=".Actvitys.ThirdActivity"
+            android:theme="@style/AppTheme.NoActionBarActivity"/>
+        <activity
+            android:name=".Test4.MainActivity"
+            android:theme="@style/AppTheme.NoActionBarActivity"/>
+        <activity
+            android:name=".Test4.AddTaskActivity"
+            android:theme="@style/AppTheme.NoActionBarActivity"/>
+        <activity
+            android:name=".Test5.MainActivity"
+            android:theme="@style/AppTheme.NoActionBarActivity">
+        </activity>
+        <activity
+            android:name=".Test5.AddAccentActivity"
+            android:theme="@style/AppTheme.NoActionBarActivity">
+        </activity>
+    </application>
+
+</manifest>
